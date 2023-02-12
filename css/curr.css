@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.main-nav{
+    
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+.nav-left{
+    font-size: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.logo-lnk{
+    text-decoration: none;
+}
+.nav-left span{
+    color: #F08D7E;
+    font-weight: 700;
+}
+.navList{
+    list-style: none;
+    display: flex;
+    margin-right: 200px;
+}
+.items{
+    padding: 15px;
+    opacity: 1;
+    color: #F8F9D7;
+    font-size: 20px;
+    transition: all 0.5s; 
+}
+.items:hover{
+    color: greenyellow;
+    font-size: 22px;
+}
+.items p{
+    cursor: pointer;
+}
+.act{
+    color: greenyellow;
+}
+.bgi::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    background: url('/pietro-jeng-n6B49lTx7NM-unsplash.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.9;
+}
+.bod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.mainBox{
+    display: flex;
+    border: 2px solid white;
+    background-color: white;
+    width: 75%;
+    height: 380px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+}
+
+.amt{
+    height: 20px;
+    width: 40px;
+}
